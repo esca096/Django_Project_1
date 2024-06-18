@@ -1,0 +1,57 @@
+{
+    "count": 25,
+    "next": "http://127.0.0.1:8080/apps/v1/product-b/?limit=5&offset=5",
+    "previous": null,
+    "results": [
+        {
+            "owner": "admin",
+            "url": "http://127.0.0.1:8080/api/1/details",
+            "pk": 1,
+            "name": "Mangue",
+            "content": "just mangue",
+            "price": "20.000",
+            "my_discount": "10.000000",
+            "public": true
+        },
+        {
+            "owner": "admin",
+            "url": "http://127.0.0.1:8080/api/2/details",
+            "pk": 2,
+            "name": "Pomme",
+            "content": "just pomme",
+            "price": "10.880",
+            "my_discount": "5.440000",
+            "public": true
+        },
+        {
+            "owner": "admin",
+            "url": "http://127.0.0.1:8080/api/3/details",
+            "pk": 3,
+            "name": "ananas",
+            "content": "just ananas",
+            "price": "45.000",
+            "my_discount": "22.500000",
+            "public": true
+        },
+        {
+            "owner": "admin",
+            "url": "http://127.0.0.1:8080/api/4/details",
+            "pk": 4,
+            "name": "ananas",
+            "content": "just ananas",
+            "price": "45.000",
+            "my_discount": "22.500000",
+            "public": true
+        },
+        {
+            "owner": "admin",
+            "url": "http://127.0.0.1:8080/api/5/details",
+            "pk": 5,
+            "name": "ANANAS",
+            "content": "just ananas",
+            "price": "45.000",
+            "my_discount": "22.500000",
+            "public": true
+        }
+    ]
+}

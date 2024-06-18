@@ -1,3 +1,4 @@
+from django.shortcuts import render
 from .models import Product
 from .serializer import ProductSerializer
 from django.forms.models import model_to_dict
@@ -97,3 +98,7 @@ class AppsMixinsViews(generics.GenericAPIView,
     
     def put(self, request, *args, **kwargs):
         return self.update(request, *args, **kwargs)
+
+
+def documentation(request):
+    return render(request, 'v1/product.html')

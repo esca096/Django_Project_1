@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import  api_view, DetailAppsView, CreateAppsView, UpdateAppsView, DeleteAppsView,AppsMixinsViews
+from .views import  api_view, DetailAppsView, CreateAppsView, UpdateAppsView, DeleteAppsView,AppsMixinsViews,documentation
 from rest_framework.authtoken.views import obtain_auth_token
 urlpatterns = [
     #path('', api_view, name='api_view'),
@@ -16,6 +16,6 @@ urlpatterns = [
     path('list/', AppsMixinsViews.as_view()),
     #path('create/', AppsMixinsViews.as_view()),
     path('auth', obtain_auth_token),
-    
+    path('documentation', documentation, name='documentation'),
     
 ]
